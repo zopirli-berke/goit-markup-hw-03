@@ -137,17 +137,56 @@ h2 {
 
 .features-list-ul {
   display: flex;
+  gap: 24px;
 }
 
 .features-list-li {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .section {
   padding: 120px 156px;
 }
 
+.team-title,
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.team-list,
+.portfolio-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 32px;
+  text-align: center;
+}
+.portfolio-container {
+  padding: 32px;
+  padding-left: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 100px 1020px 100px 156px;
+}
 .container {
   width: 1440px;
   margin-left: auto;
