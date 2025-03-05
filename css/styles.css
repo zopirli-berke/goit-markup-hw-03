@@ -1,0 +1,155 @@
+body {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  color: #2e2f42;
+}
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+.web-logo,
+.web-logo-2 {
+  color: #4d5ae5;
+  line-height: 1.16;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.studio-logo {
+  color: #2e2f42;
+  line-height: 1.16;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.page-nav,
+.link {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+}
+.page-nav .link:active {
+  color: #404bbf;
+}
+.contacts:hover {
+  color: #404bbf;
+}
+.hero-page {
+  background-color: #2e2f42;
+}
+.page-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  padding-top: 188px;
+}
+.button {
+  background-color: #4d5ae5;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin-left: 636px;
+  margin-top: 48px;
+  margin-bottom: 188px;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.button-text {
+  color: #ffffff;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-section {
+  background-color: #ffffff;
+}
+.portfolio-functions,
+.team-position,
+.features-text,
+.contacts {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.page-footer {
+  background-color: #2e2f42;
+}
+.studio-logo-2 {
+  color: #f4f4fd;
+  line-height: 1.16;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.copyright-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.page-header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 25.5px 156px 25.5px 156px;
+  align-items: center;
+}
+.page-nav,
+.address {
+  display: flex;
+  gap: 40px;
+}
+.page-nav {
+  margin-left: 76px;
+}
+
+.address {
+  margin-left: 332px;
+}
+
+.features-list-ul {
+  display: flex;
+}
+
+.features-list-li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  padding: 120px 156px;
+}
+
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
